@@ -1,7 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import {Button, Image, ImageBackground, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
-import bg from './assets/john-arano-_qADvinJi20-unsplash.jpg';
 import logo from './assets/image1.jpeg';
 
 export default function App() {
@@ -28,7 +27,7 @@ export default function App() {
                     </TouchableOpacity>
                 <TouchableOpacity onPress={() => alert('Hello, world!')} style={styles.button}>
                     <Text style={styles.buttonText}>INSCRIPTION</Text>
-                </TouchableOpacity>
+                    </TouchableOpacity>
                 {/*</ImageBackground>*/}
                 <StatusBar style="auto" />
             </View>
